@@ -1,3 +1,41 @@
+//gnb호버시 서브메뉴 슬라이드 다운
+const header = document.querySelector('header'), 
+mainMenuList = document.querySelectorAll('.depth1'),
+subMenu = document.querySelectorAll('.depth2')
+// console.log(header, mainMenuList, subMenu)
+// let headerHeight = header.offsetHeight;
+const headerHeight = 105;
+// console.log(headerHeight)
+let subMenuHeight = 0;
+// console.log(subMenu.length)
+for(let i = 0; i < subMenu.length; i++){
+    if(subMenu[i].offsetHeight > subMenuHeight){
+        subMenuHeight = subMenu[i].offsetHeight
+    }
+}
+for(let i = 0; i < mainMenuList.length; i++){
+    mainMenuList[i].addEventListener('mouseover',function(){
+        header.style.height=headerHeight + subMenuHeight + 'px'
+    })
+    mainMenuList[i].addEventListener('mouseout',function(){
+        header.style.height=headerHeight +'px'
+    })
+}
+// window.onload = function(){
+//   // 메뉴기능
+//   const header = $('.header'),
+//         nav = $('nav')
+//   let navHeight = nav.height();
+//   // console.log(gnbHeight)
+//   nav.mouseenter(function(){
+//       header.stop().animate({height:'105px'},300);
+//   })
+//   header.mouseleave(function(){
+//       header.stop().animate({height: 'navHeight'},300);
+//   })
+// }
+
+
 // 신상품 탭메뉴
 $(function () {
   const tabAnchor = $('.tabs-nav li a'),
