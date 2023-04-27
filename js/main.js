@@ -244,6 +244,24 @@ new Swiper(".new_Swiper", {
   spaceBetween: 100,
   // autoplay: true,
   loop: true,
+  breakpoints: {
+    "@0.00": {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    "@0.75": {
+      slidesPerView: 2,
+      spaceBetween: 80,
+    },
+    "@1.00": {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+    "@1.50": {
+      slidesPerView: 4,
+      spaceBetween: 100,
+    },
+  },
   navigation: {
       nextEl: ".new_Swiper-button-next",
       prevEl: ".new_Swiper-button-prev",
@@ -255,6 +273,24 @@ new Swiper(".best_Swiper", {
   spaceBetween: 60,
   centeredSlides: true,
   loop: true,
+  breakpoints: {
+    "@0.00": {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    "@0.75": {
+      slidesPerView: 2.5,
+      spaceBetween: 80,
+    },
+    "@1.00": {
+      slidesPerView: 3.5,
+      spaceBetween: 50,
+    },
+    "@1.50": {
+      slidesPerView: 4,
+      spaceBetween: 100,
+    },
+  },
   pagination: {
     el: ".best_swiper-pagination",
     clickable: true,

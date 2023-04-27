@@ -562,7 +562,7 @@ main{}
     margin-bottom: 5%;
 }
 .new_item .inner .new_Swiper{
-    
+    width: 100%;
 }
 .new_item .inner .new_Swiper .swiper-wrapper{
     /* display: block; */
@@ -584,6 +584,7 @@ main{}
     margin: 0 auto 5%;
     justify-content: space-between;
     align-items: center;
+    gap: 1%;
 }
 .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color1{
     width: 28%;
