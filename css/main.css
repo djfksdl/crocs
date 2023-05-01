@@ -224,6 +224,11 @@ main{}
     left: 0;
 }
 .visual .visual_Swiper .swiper-wrapper .swiper-slide{}
+.visual .visual_Swiper .swiper-wrapper .swiper-slide i{
+    display: block;
+    width: 100%;
+    padding-top: 55.84%;
+}
 .visual .visual_Swiper .swiper-wrapper .vs-slide1{
     width: 100%;
     height: 100%;
@@ -240,9 +245,10 @@ main{}
     position:absolute;top:-90px;left:0;width:100%;height:100%; */
 }
 .visual .visual_Swiper .swiper-wrapper .vs-slide1 .vs-txt{
-    
+    display: none;
 }
 .visual .visual_Swiper .swiper-wrapper .vs-slide1 .vs-txt h1{}
+.visual .visual_Swiper .swiper-wrapper .vs-slide1 .vs-txt span{}
 .visual .visual_Swiper .swiper-wrapper .vs-slide1 .vs-txt p{}
 .visual .visual_Swiper .swiper-wrapper .vs-slide1 .vs-txt a{}
 .visual .visual_Swiper .swiper-wrapper .vs-slide1 i{}
@@ -275,7 +281,7 @@ main{}
     border-radius: 10px;
     padding: 1.5% 4%;
 }
-.visual .visual_Swiper .swiper-wrapper .vs-slide2 i{}
+
 .visual .visual_Swiper .swiper-wrapper .vs-slide3{
     background: url(../images/banner2.jpg) no-repeat center center/cover;
     width: 100%;
@@ -297,7 +303,6 @@ main{}
 }
 .visual .visual_Swiper .swiper-wrapper .vs-slide3 .vs-txt p{
     font-size: 24px;
-    margin-bottom: 3%;
     font-weight: 700;
     line-height: 30px;
     margin-bottom: 5%;
