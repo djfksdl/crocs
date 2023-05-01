@@ -845,7 +845,6 @@ main{}
     bottom: 0%;
     left: 47%;
     z-index: 1;
-    /* 여기서부터 */
 }
 /* ================= company as you are ==================*/
 .company{
@@ -918,6 +917,10 @@ main{}
 .event .inner .event-wrap .event-left .event-content:nth-child(2){
     margin-top: 10%;
 }
+.event .inner .event-wrap .event-content img{
+    width: 100%;
+}
+.event .inner .event-wrap .event-right .event-content img{}
 .event .inner .event-wrap .event-content a{
     font-size: 18px;
     font-weight: 700;
@@ -937,7 +940,7 @@ main{}
     top: 57%;
     left: 7%;
 }
-.event .inner .event-wrap .event-right .event-content:nth-child(1) a{
+.event .inner .event-wrap .event-right .event-content a{
     top: 57%;
     left: 50%;
     transform: translateX(-50%);
@@ -951,7 +954,7 @@ footer .inner{
 }
 footer .inner .f-txt{
     display: flex;
-    gap: 10%;
+    gap: 2%;
 }
 footer .inner ul{}
 footer .inner ul li{
@@ -972,7 +975,16 @@ footer .inner ul li a{
 footer .inner ul > li:nth-child(1) a{
     font-weight: 800;
 }
-
+footer .inner .f-txt .f-txt-l{
+    display: flex;
+    gap: 29%;
+    width:50%;
+}
+footer .inner .f-txt .f-txt-r{
+    display: flex;
+    gap: 10%;
+    width:50%;
+}
 /* 고객서비스 */
 footer .inner .service{}
 footer .inner .service li{}
@@ -982,10 +994,21 @@ footer .inner .service li a{}
 footer .inner .guide{}
 footer .inner .guide li{}
 footer .inner .guide li a{}
+footer .inner .guide .guide-t{}
+footer .inner .guide .guide-t li{}
+footer .inner .guide .guide-t li a{
+    padding-left: 0;
+}
+footer .inner .guide .guide-b li a{
+    padding-left: 0;
+}
 
 /* 사이트맵 */
 footer .inner .map{}
 footer .inner .map li{}
+footer .inner .map li br{
+    display: none;
+}
 footer .inner .map li a{}
 
 /* sns */
