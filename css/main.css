@@ -667,13 +667,13 @@ main{}
     width: 22%;
 }
 .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color5 li:nth-child(1) a{
-    background-color: black;
+    background-color: #c97775;
 }
 .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color5 li:nth-child(2) a{
-    background-color: #545840;
+    background-color: black;
 }
 .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color5 li:nth-child(3) a{
-    background-color: navy;
+    background-color: #dbd6c6;
 }
 .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color5 li:nth-child(4) a{
     background-color: #d6a802;
@@ -790,7 +790,7 @@ main{}
     font-weight: 800;
 }
 .best_item .inner .best-content{
-    height: 400px;
+    /* height: 400px; */
 }
 .best_item .inner .best-content .bi-tabs-panel{
     
@@ -871,6 +871,7 @@ main{}
     font-size: 48px;
     font-weight: 800;
     line-height: 1.2em;
+    white-space: nowrap;
 }
 .company .inner .cmp-txt h2{
     font-size: 30px;
@@ -880,6 +881,10 @@ main{}
 .company .inner .cmp-txt p{
     font-size: 24px;
     line-height: 1.2em;
+    white-space: nowrap;
+}
+.company .inner .cmp-txt p br{
+    display: none;
 }
 /* =============== event ================ */
 .event{

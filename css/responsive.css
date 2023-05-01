@@ -1,9 +1,14 @@
 @media screen and (max-width: 1840px){
+    /* 신메뉴 */
     .new_item .inner .new_Swiper-button-next{
         right: 4%;
     }
     .new_item .inner .new_Swiper-button-prev{
         left: 4%;
+    }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 23%;
     }
 }
 @media screen and (max-width: 1800px){
@@ -15,11 +20,16 @@
     }
 }
 @media screen and (max-width: 1760px){
+    /* 신메뉴 */
     .new_item .inner .new_Swiper-button-next{
         right: 2%;
     }
     .new_item .inner .new_Swiper-button-prev{
         left: 2%;
+    }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 24%;
     }
 }
 @media screen and (max-width: 1720px){
@@ -31,7 +41,7 @@
     }
 }
 @media screen and (max-width: 1700px) {
-    /* 슬라이드 */
+    /* 비주얼 슬라이드 */
     .visual .visual_Swiper .swiper-wrapper .vs-slide4 .vs-txt .vs-top h1{
         font-size: 35px;
         line-height: 50px;
@@ -51,8 +61,13 @@
         font-size: 20px;
         line-height: 25px;
     }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 25%;
+    }
 }
 @media screen and (max-width: 1670px){
+    /* 신메뉴 */
     .new_item .inner .new_Swiper{
         width: 95%;
     }
@@ -79,7 +94,7 @@
     .inner{
         max-width: 1505px;
     }
-    /* 슬라이드 */
+    /* 비주얼 슬라이드 */
     .visual .visual_Swiper .swiper-wrapper .vs-slide2 .vs-txt h1 {
         font-size: 50px;
         line-height: 80px;
@@ -128,13 +143,17 @@
     .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color8{
         width: 12%;
     }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 26%;
+    }
 }
 
 @media screen and (max-width: 1550px){
     .inner{
         max-width: 1405px;
     }
-    /* 슬라이드 */
+    /* 비주얼 슬라이드 */
     .visual .visual_Swiper .swiper-wrapper .vs-slide3 .vs-txt h1 {
         font-size: 55px;
         line-height: 80px;
@@ -211,6 +230,10 @@
     .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color8{
         width: 14%;
     }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 28%;
+    }
 }
 @media screen and (max-width:1480px) {
     .visual .visual_Swiper .swiper-wrapper .vs-slide2 .vs-txt h1 {
@@ -254,6 +277,10 @@
     .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color8{
         width: 16%;
     }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 30%;
+    }
 }
 @media screen and (max-width: 1400px) {
     .visual .visual_Swiper .swiper-wrapper .vs-slide3 .vs-txt h1 {
@@ -276,7 +303,7 @@
     .visual .visual_Swiper .visual_Swiper-button-prev{
         left: 1%;
     }
-    /* 신상품 슬라이드 */
+    /* 신상품 */
     .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color li a{
         width: 17px;
         height: 17px;
@@ -285,6 +312,17 @@
         width: 20px;
         height: 20px;
     }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 32%;
+    }
+    .best_item .inner .best_Swiper-button-next{
+        right: 34%;
+    }
+    .best_item .inner .best_Swiper-button-prev{
+        left: 34%;
+    }
+
 }
 @media screen and (max-width: 1300px){
     .inner{
@@ -329,7 +367,7 @@
         font-size: 17px;
         padding-left: 15%;
     }
-    /* 슬라이드 */
+    /* 비주얼 슬라이드 */
     .visual .visual_Swiper .swiper-wrapper .vs-slide3 .vs-txt h1 {
         font-size: 40px;
         line-height: 60px;
@@ -349,6 +387,10 @@
         font-size: 15px;
         line-height: 18px;
     }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 35%;
+    }
 }
 @media screen and (max-width: 1160px) {
     .inner{
@@ -360,7 +402,7 @@
         font-size: 16px;
         padding-left: 13%;
     }
-    /* 슬라이드 */
+    /* 비주얼 슬라이드 */
     .visual .visual_Swiper .swiper-wrapper .vs-slide2 .vs-txt h1 {
         font-size: 35px;
         line-height: 40px;
@@ -400,6 +442,10 @@
     .visual .visual_Swiper .swiper-wrapper .vs-slide5 .vs-txt a {
         font-size: 13px;
         line-height: 18px;
+    }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 38%;
     }
 }
 @media screen and (max-width: 1080px){
@@ -441,7 +487,7 @@
     .header .right_box a i{
         font-size: 20px;
     }
-    /* 슬라이드 */
+    /* 비주얼 슬라이드 */
     
     .visual .visual_Swiper .swiper-wrapper .vs-slide2 .vs-txt h1 {
         font-size: 30px;
@@ -460,6 +506,10 @@
     .visual .visual_Swiper .swiper-wrapper .vs-slide3 .vs-txt a {
         font-size: 13px;
         line-height: 18px;
+    }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 42%;
     }
 }
 @media screen and (max-width: 1010px){
@@ -552,6 +602,13 @@
     .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color1{
         width: 40%;
     }
+    /* 베스트 */
+    .best_item .inner h1{
+        font-size: 45px;
+    }
+    .best_item .inner .bi-nav{
+        width: 45%;
+    }
 }
 @media screen and (max-width: 930px){
     .inner{
@@ -559,7 +616,7 @@
     }
 }
 @media screen and (max-width: 910px){
-    /* 슬라이드 */
+    /* 비주얼 슬라이드 */
     .visual .visual_Swiper .swiper-wrapper .vs-slide2 .vs-txt h1 {
         font-size: 25px;
         line-height: 30px;
@@ -571,6 +628,35 @@
     .visual .visual_Swiper .swiper-wrapper .vs-slide3 .vs-txt a {
         font-size: 13px;
         line-height: 15px;
+    }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 48%;
+    }
+}
+@media screen and (max-width:881px) {
+    /* 베스트 */
+    .best_item .inner .best_Swiper-button-next{
+        right: 28%;
+    }
+    .best_item .inner .best_Swiper-button-prev{
+        left: 28%;
+    }
+    /* CAYA */
+    .company .inner .cmp-txt h1{
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 1.2em;
+    }
+    .company .inner .cmp-txt h2{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 2em;
+    }
+    .company .inner .cmp-txt p{
+        font-size: 20px;
+        line-height: 1.2em;
+        white-space: nowrap;
     }
 }
 @media screen and (max-width: 865px) {
@@ -610,6 +696,7 @@
         border-radius: 20px;
     }
 }
+
 @media screen and (max-width: 820px){
     .inner{
         max-width: 750px;
@@ -618,6 +705,14 @@
     .quick_menu .inner{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 200px);
+    }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 52%;
+    }
+    /* CAYA */
+    .company .inner .cmp-txt{
+        top: 20%;
     }
 }
 @media screen and (max-width: 770px){
@@ -631,6 +726,20 @@
     }
     .quick_menu .inner a h1{
         font-size: 30px;
+    }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 56%;
+    }
+    /* CAYA */
+    .company .inner .cmp-txt h1{
+        font-size: 40px;
+    }
+    .company .inner .cmp-txt h2{
+        font-size: 25px;
+    }
+    .company .inner .cmp-txt p{
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 715px){
@@ -669,6 +778,10 @@
     .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color8{
         width: 20%;
     }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 61%;
+    }
 
 }
 @media screen and (max-width: 685px){
@@ -677,6 +790,31 @@
     }
     .new_item .inner .new_Swiper-button-prev{
         left: 0.2%;
+    }
+}
+@media screen and (max-width:661px) {
+    .best_item .inner .best-content .bi-tabs-panel .best_Swiper{
+        width: 70%;
+    }
+    .best_item .inner .best_Swiper-button-next{
+        right: 0%;
+        top: 85%;
+        transform: translateY(0%);
+    }
+    .best_item .inner .best_Swiper-button-prev{
+        left: 0%;
+        top: 85%;
+        transform: translateY(0%);
+    }
+    /* CAYA */
+    .company .inner .cmp-txt{
+        top: 16%;
+    }
+}
+@media screen and (max-width: 650px) {
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 65%;
     }
 }
 @media screen and (max-width: 615px){
@@ -728,6 +866,43 @@
         height: 30px;
         border-radius: 30px;
     }
+    /* 베스트 */
+    .best_item .inner h1{
+        font-size: 40px;
+    }
+    .best_item .inner .bi-nav{
+        width: 70%;
+    }
+    /* CAYA */
+    .company{
+        height: 520px;
+    }
+}
+@media screen and (max-width: 570px) {
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 75%;
+    }
+    /* CAYA */
+    .company .inner .cmp-txt{
+        top: 18%;
+    }
+    .company .inner .cmp-txt h1{
+        font-size: 30px;
+    }
+    .company .inner .cmp-txt h2{
+        font-size: 20px;
+    }
+    .company .inner .cmp-txt p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 520px){
     .inner{
@@ -740,10 +915,34 @@
     .quick_menu .inner a h1{
         font-size: 20px;
     }
+
 }
 @media screen and (max-width: 500px) {
     .header h1 a img {
         width: 100px;
+    }
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 90%;
+    }
+    /* CAYA */
+    .company .inner .cmp-txt{
+        top: 15%;
+    }
+    .company .inner .cmp-txt h1{
+        font-size: 25px;
+    }
+    .company .inner .cmp-txt h2{
+        font-size: 18px;
+    }
+    .company .inner .cmp-txt p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 445px) {
+    /* 베스트 */
+    .best_item .inner .bi-nav{
+        width: 95%;
     }
 }
 @media screen and (max-width: 425px){
@@ -780,6 +979,29 @@
     .new_item .inner .new_Swiper .swiper-wrapper .swiper-slide .color8{
         width: 20%;
     }
+    /* 베스트 */
+    .best_item .inner .bi-nav li{
+        width: 90px;
+        height: 35px;
+    }
+    .best_item .inner .best-content .bi-tabs-panel .best_Swiper .swiper-wrapper .swiper-slide .b-txt h2{
+        font-size:16px;
+    }
+    /* CAYA */
+    .company .inner .cmp-txt{
+        top: 12%;
+    }
+    .company .inner .cmp-txt p br{
+        display: block;
+    }
+
+}
+@media screen and (max-width: 390px) {
+    /* 베스트 */
+    .best_item .inner .bi-nav li{
+        width: 85px;
+        height: 34px;
+    } 
 }
 @media screen and (max-width: 370px){
     .inner{
@@ -787,6 +1009,16 @@
     }
     /* 신메뉴 */
     .new_item .inner h1{
-        font-size: 40px;
+        font-size: 35px;
     }
+    /* 베스트 */
+    .best_item .inner h1{
+        font-size: 35px;
+    }
+    .best_item .inner .best-content .bi-tabs-panel .best_Swiper .swiper-wrapper .swiper-slide .b-txt h2{
+        font-size:15px;
+    }
+}
+@media screen and(max-width: 365px) {
+    /* 베스트 */
 }
